@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "baseUrl": "./src",
+    "paths": {
+      "Game": ["Game.ts"],
+      "screens": ["screens/index.ts"],
+      "utils": ["utils/index.ts"],
+      "ui": ["ui/index.ts"]
+    }
+  },
+  "include": ["src/**/*"]
+}
